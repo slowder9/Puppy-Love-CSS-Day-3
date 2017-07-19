@@ -1,0 +1,131 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+}
+
+html{
+  border: 3px solid #ffd24a;
+  text-align: left;
+}
+
+body > div{
+    width: 600px;
+    margin-left: 0;
+    margin-right: 0;
+    background: white;
+    padding: 20px;
+}
+
+a{
+    text-decoration: underline;
+    color: #1fabe5;
+}
+
+h2{
+  font-size: 1.5em;
+  margin: .83em .83em 0px 0px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.17em;
+  margin: 1em 1em 0px 0px;
+  font-weight: bold;
+}
+
+h2, h3{
+  color: #1fabe5;
+}
+
+ul{
+    font-weight: : bold;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    width: 40%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #1fabe5;
+}
+
+table td{
+  border: 1px solid #1fabe5;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+thead th:nth-child(5) {
+  width: 35%;
+}
+
+th, td {
+  padding: 20px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+thead{
+  background-color: #1fabe5;
+  color: white;
+  border: 3px solid #1fabe5;
+}
+
+tbody{
+  background-color: white;
+  color: black
+  border: 3px solid #1fabe5;
+}
+
+table img{
+  height: 75px;
+}
+
+#logo{
+  text-align: left;
+  color: white;
+  text-transform: uppercase;
+  background-color: #ff8523;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+#logo img{
+  height: 50px;
+}
